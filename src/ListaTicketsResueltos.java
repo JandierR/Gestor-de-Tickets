@@ -15,7 +15,7 @@ public class ListaTicketsResueltos {
     public void agregarTicket(Ticket ticket) {
         ticket.setSiguiente(primerTicket);
         setPrimerTicket(ticket);
-        System.out.println("Se agrego con exito el ticket " + ticket);
+        System.out.println("Se agrego con éxito el ticket " + ticket);
         System.out.println();
     }
 
@@ -40,7 +40,7 @@ public class ListaTicketsResueltos {
             return null;
         }
 
-        System.out.println("Se encontró el producto!");
+        System.out.println("Se encontró el ticket!");
         System.out.println();
         return temp;
     }

@@ -75,10 +75,10 @@ public class Ticket {
     public String toString() {
         return "Ticket{" +
                 "id=" + id +
-                ", descripcion='" + descripcion + '\'' +
+                ", descripción='" + descripcion + '\'' +
                 ", nombre='" + nombreUsuario + '\'' +
-                ", fechaCreacion=" + fechaCreacion +
-                ", fechaResolucion=" + fechaResolucion +
+                ", fechaCreación=" + fechaCreacion +
+                ", fechaResolución=" + fechaResolucion +
                 '}';
     }
 }

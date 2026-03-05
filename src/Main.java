@@ -26,6 +26,7 @@ public class Main {
                 -1. Entrar como Administrador
                 -2. Entrar como Usuario
                 -0. Salir""");
+        System.out.println();
     }
 
     public static void menuAdministrador() {
@@ -34,6 +35,8 @@ public class Main {
                 -1. Ver ticket
                 -2. Resolver ticket
                 -0. Salir""");
+        System.out.println();
+
     }
 
     public static void menuUsuario() {
@@ -42,6 +45,8 @@ public class Main {
                 -1. Crear ticket
                 -2. Buscar ticket resuelto
                 -0. Salir""");
+        System.out.println();
+
     }
 
     public static void procesarOpcionMenuPrincipal(int opcion) throws IOException {
