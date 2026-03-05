@@ -7,6 +7,7 @@ public class Ticket {
     private LocalDate fechaCreacion;
     private LocalDate fechaResolucion;
     private static int contador = 1;
+    private Ticket siguiente;
 
 
     public Ticket(String descripcion, String nombreUsuario) {
@@ -15,6 +16,7 @@ public class Ticket {
         this.nombreUsuario = nombreUsuario;
         this.fechaCreacion = LocalDate.now();
         this.fechaResolucion = null;
+        siguiente = null;
     }
 
     public int getId() {
@@ -59,6 +61,14 @@ public class Ticket {
 
     public static int getContador() {
         return contador;
+    }
+
+    public Ticket getSiguiente() {
+        return siguiente;
+    }
+
+    public void setSiguiente(Ticket siguiente) {
+        this.siguiente = siguiente;
     }
 
     @Override
